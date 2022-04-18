@@ -324,7 +324,6 @@ p > img {
 
   @include mobile {
     text-align: center;
-    direction: rtl;
   }
 }
 
@@ -357,7 +356,6 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    direction: rtl;
 
     @include mobile {
       margin: 0 10px;
@@ -462,7 +460,6 @@ body:after {
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
-  direction: rtl;
 }
 
 .page h1{
@@ -472,7 +469,6 @@ body:after {
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
-  direction: rtl;
 }
 
 .author_title{
@@ -624,7 +620,6 @@ Modules - reusable parts of our design
 #gh-latest{
     font-size: 16px;
     text-align: center;
-    direction: rtl;
 }
 
 .text-link {
@@ -646,7 +641,6 @@ Modules - reusable parts of our design
   max-width: 270px;
   border-radius: 4px;
   text-align: center;
-  direction: rtl;
   border: dashed 1px #e6e6e6;
   background-color: hsl(0, 0%, 98%);
   font-size: var(--font-size);
@@ -690,9 +684,8 @@ Modules - reusable parts of our design
   display: block;
   padding: 0 1em 8px;
   max-width: 138px;
-  float: right;
+  float: left;
   text-align: left;
-  direction: rtl;
 }
 
 .carbon-poweredby {
@@ -709,7 +702,6 @@ Modules - reusable parts of our design
 .post-tags {
   text-align: center;
   line-height: 35px;
-  direction: rtl;
 }
 
 .post-tags a {
@@ -739,7 +731,6 @@ Modules - reusable parts of our design
 
 .pagination {
   text-align: center;
-  direction: rtl;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {
@@ -767,7 +758,6 @@ Modules - reusable parts of our design
     margin-bottom: 0;
     padding: 8px 20px;
     text-align: left;
-    direction: rtl;
     max-width: calc(100% - 130px - 3em);
   }
   .carbon-poweredby {
@@ -804,7 +794,6 @@ Modules - reusable parts of our design
   border: 1px solid #ccc;
   padding: 3px;
   text-align: center;
-  direction: rtl;
   background: #ececec;
   margin: 8px;
   border-radius: 5px;
@@ -1020,7 +1009,6 @@ Modules - reusable parts of our design
     left: auto;
     right: 122%;
     text-align: right;
-    direction: rtl;
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
