@@ -1,4 +1,4 @@
-If you are interested in setting up something similar to this for yourself, follow the links below.
+If you are interested in setting up something similar to this for yourself, follow the [link](https://github.com/amitmerchant1990/reverie)
 
 ---
 
